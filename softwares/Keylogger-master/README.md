@@ -18,16 +18,7 @@ Currently, there are three keylogger programs for the major operating systems; W
 - [Check out the site for more information](https://simple-keylogger.github.io/)
 
 ## Windows
-To change visibility of the window set the `#define` in line 6 to `visible` or `invisible`.
-
-Simply compile into an .exe, and then run. Visual Studio is good for this.
-
-- `invisible` makes the window of the logger disappear, and it also starts up hidden from view. Note that it is still visible in the task manager.
-- `visible` is visible, and the window does not close when typing. Great for testing it out.
-
-Both of these save the keystrokes to a .txt file when closed.
-
-> Note that sometimes your compiler may through up errors. If it does, keep compiling - the program still works. As always, please create an issue if you have a problem.
+Double click on the keylogger.exe file in the WINDOWS folder.
 
 ## Mac
 This is a little more complicated. Please note, it does not work for secure areas such as password inputs. I have not found a work around yet.
